@@ -37,10 +37,6 @@ a:hover{
         padding-left: 1px;
         padding-right: 1px;
     }
-
-    a{
-        color: red;
-    }
 }
 
 @media screen and (max-width: 582px)  {
@@ -50,20 +46,6 @@ a:hover{
     }
 
     a{
-        color: aqua;
-        padding: 9px;
-    }
-}
-
-@media screen and (max-width: 568px) {
-    nav{
-        padding: 10px; 
-        padding-left: 1px;
-        padding-right: 1px;
-    }
-
-    a{
-        color: blue;
         padding: 9px;
     }
 }
@@ -76,7 +58,6 @@ a:hover{
     }
 
     a{
-        color: yellow;
         padding: 9px;
         padding-left: 8px;
     }
@@ -90,7 +71,6 @@ a:hover{
     }
 
     a{
-        color: violet;
         padding: 9px;
         padding-left: 7px;
     }
@@ -104,7 +84,6 @@ a:hover{
     }
 
     a{
-        color: tomato;
         padding: 9px;
         padding-left: 6px;
     }
@@ -118,7 +97,6 @@ a:hover{
     }
 
     a{
-        color: springgreen;
         padding: 9px;
         padding-left: 5px;
     }
@@ -132,7 +110,6 @@ a:hover{
     }
 
     a{
-        color: skyblue;
         padding: 9px;
         padding-left: 4px;
     }
@@ -146,7 +123,6 @@ a:hover{
     }
 
     a{
-        color: purple;
         padding: 9px;
         padding-left: 3px;
     }
