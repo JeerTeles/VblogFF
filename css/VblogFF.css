@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
-header{
-    display: grid;
-}
-
 *{
     margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header {
+    display: grid;
+    position: fixed;
 }
 
 img#header{
@@ -29,6 +35,21 @@ a{
 a:hover{
     background-color: #fff;
     color: #000;
+}
+
+div#conteudo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../download.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    overflow-y: scroll;
+    color: aqua; 
+}
+
+footer{
+    background: red;
 }
 
 @media screen and (max-width: 612px)  {
@@ -126,6 +147,8 @@ a:hover{
         padding: 9px;
         padding-left: 3px;
     }
+
+   
 }
 
 
