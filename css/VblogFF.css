@@ -18,7 +18,7 @@ nav{
     padding: 10px;
 }
 
-nav > a{
+a{
     color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -30,4 +30,130 @@ a:hover{
     background-color: #fff;
     color: #000;
 }
+
+@media screen and (max-width: 612px)  {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: red;
+    }
+}
+
+@media screen and (max-width: 582px)  {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+    }
+
+    a{
+        color: aqua;
+        padding: 9px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: blue;
+        padding: 9px;
+    }
+}
+
+@media screen and (max-width: 573px)   {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: yellow;
+        padding: 9px;
+        padding-left: 8px;
+    }
+}
+
+@media screen and (max-width: 548px)   {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: violet;
+        padding: 9px;
+        padding-left: 7px;
+    }
+}
+
+@media screen and (max-width: 538px)   {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: tomato;
+        padding: 9px;
+        padding-left: 6px;
+    }
+}
+
+@media screen and (max-width: 527px)   {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: springgreen;
+        padding: 9px;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 516px)   {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: skyblue;
+        padding: 9px;
+        padding-left: 4px;
+    }
+}
+
+@media screen and (max-width: 504px)   {
+    nav{
+        padding: 10px; 
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    a{
+        color: purple;
+        padding: 9px;
+        padding-left: 3px;
+    }
+}
+
+
+
+
+
 
