@@ -32,24 +32,64 @@ a{
     font-weight: bold;
 }
 
-a:hover{
+a.header:hover{
     background-color: #fff;
     color: #000;
 }
 
-div#conteudo{
+div.conteudo{
+    display: grid;
+    margin-top: 0px;
     width: 100vw;
     height: 100vh;
-    background-image: url(../download.jpeg);
-    background-position: top;
+    background-image: url(../img/body-home.jpeg);
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: contain; 
-    overflow-y: scroll;
-    color: aqua; 
+    background-size: contain;
+    justify-items: right
+}
+
+#fundo-ff-01{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/body-ff-01.jpeg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: ;
+}
+
+audio{
+    width: 10vw;
+    position: fixed;
+}
+
+div.videos{
+    background-color: #000;
+}
+
+video{
+    margin-top: 250px;
+    width: 300px;
+    height: auto;
+    padding: 3px;
+    background-color: red;
+}
+
+source{
+    
+    justify-content: center;
+    background: red;
 }
 
 footer{
-    background: red;
+    display: block;
+    background: #000;
+    margin-top: -2px;
+    padding: 8px;
+    text-align: center;
 }
 
 @media screen and (max-width: 612px)  {
