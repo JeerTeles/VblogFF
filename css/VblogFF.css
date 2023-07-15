@@ -14,6 +14,8 @@ header {
     position: fixed;
 }
 
+
+
 img#header{
     width: 100vw;
     height: 200px;
@@ -37,7 +39,7 @@ a.header:hover{
     color: #000;
 }
 
-div.conteudo{
+#conteudo-00{
     display: grid;
     margin-top: 0px;
     width: 100vw;
@@ -45,20 +47,108 @@ div.conteudo{
     background-image: url(../img/body-home.jpeg);
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: contain;
-    justify-items: right
+    background-size: cover;
+    justify-items: right;
 }
 
-#fundo-ff-01{
+#conteudo-01{
     display: grid;
     margin-top: 0px;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/body-ff-01.jpeg);
-    background-attachment: scroll;
+    background-image: url(../img/fundo-body-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    justify-items: ;
+}
+
+#conteudo-02{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/Body-conteudo-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-03{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-04{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-05{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-06{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-07{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-08{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-09{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo-x{
+    display: grid;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo-body-X.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 audio{
@@ -90,6 +180,7 @@ footer{
     margin-top: -2px;
     padding: 8px;
     text-align: center;
+    
 }
 
 @media screen and (max-width: 612px)  {
