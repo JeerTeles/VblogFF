@@ -10,11 +10,10 @@ body{
 }
 
 header {
-    display: grid;
-    position: fixed;
+    display: grid; 
+    position: sticky;
+    top: 0;
 }
-
-
 
 img#header{
     width: 100vw;
@@ -39,12 +38,19 @@ a.header:hover{
     color: #000;
 }
 
+audio{
+    margin-top: -40px;
+    width: 10vw;
+    height: 40px;
+    position: fixed;
+}
+
 #conteudo-00{
     display: grid;
     margin-top: 0px;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/body-home.jpeg);
+    background-image: url(../img/Velozes_e_Furiosos_-_Capa.webp);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,9 +59,11 @@ a.header:hover{
 
 #conteudo-01{
     display: grid;
-    margin-top: 0px;
+    margin-bottom: 2.5px;
+    grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+    gap:8px;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-image: url(../img/fundo-body-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,7 +144,7 @@ a.header:hover{
     margin-top: 0px;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/fundo-body-09.jpg);
+    background-image: url(../img/body-09.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -146,41 +154,25 @@ a.header:hover{
     margin-top: 0px;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/fundo-body-X.jpeg);
+    background-image: url(../img/body-x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-audio{
-    width: 10vw;
-    position: fixed;
-}
-
-div.videos{
+.cont-videos{
+    display: grid;
+    margin-top: 8px;
+    width: 372px;
+    height: 400px;
+    border: 2px solid red;
     background-color: #000;
-}
-
-video{
-    margin-top: 250px;
-    width: 300px;
-    height: auto;
-    padding: 3px;
-    background-color: red;
-}
-
-source{
-    
-    justify-content: center;
-    background: red;
 }
 
 footer{
     display: block;
     background: #000;
-    margin-top: -2px;
-    padding: 8px;
+    height: 70px;
     text-align: center;
-    
 }
 
 @media screen and (max-width: 612px)  {
